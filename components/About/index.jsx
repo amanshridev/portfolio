@@ -4,8 +4,6 @@ import {
   AiFillLinkedin,
   AiFillYoutube,
 } from "react-icons/ai";
-import Image from "next/image";
-import avatar from "../../public/avatar.png";
 import Navbar from '../NavBar';
 import { ReactTyped } from "react-typed";
 
@@ -18,7 +16,7 @@ const About = () => {
               Aman Shrivastav
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
-             I am a <ReactTyped className='font-semibold  text-teal-600 first-letter:text-teal-700' strings={["Front End Developer", "Web Designer", "Ui Designer"]} typeSpeed={80} backSpeed={50} loop />
+             I am a <ReactTyped className='font-semibold  text-teal-600' strings={["Front End Developer", "Web Designer", "Ui Designer"]} typeSpeed={80} backSpeed={50} loop />
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
               Freelancer providing services for programming and design content
@@ -28,9 +26,6 @@ const About = () => {
               <AiFillTwitterCircle />
               <AiFillLinkedin />
               <AiFillYoutube />
-            </div>
-            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={avatar} layout="fill" objectFit="cover" />
             </div>
           </div>
         </section>
