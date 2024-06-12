@@ -1,7 +1,12 @@
+import { Canvas } from "@react-three/fiber";
+import { Suspense, useEffect, useRef, useState } from "react";
+
 const App = () => {
 
-  return(
-  <h1>Heloo</h1>
+  return (
+    <div className='w-full h-screen relative'>
+      <h1>Heloo</h1>
+    </div>
   )
 }
 
